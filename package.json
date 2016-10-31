@@ -1,0 +1,15 @@
+{
+  "name": "http-localhost-pipe",
+  "version": "1.0.0",
+  "description": "Tool to fetch contents off a remote server (ideally an origin site and serve it from a local port). This is ideal for serving a TOR hidden site",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Itinerant Foodie Tech <hello@itinerantfoodie.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.14.0",
+    "request": "^2.76.0"
+  }
+}
